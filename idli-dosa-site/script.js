@@ -1,5 +1,5 @@
 /* ====== 1. EDIT THESE TWO LINES ====== */
-const ORDER_EMAIL = "YOUR_EMAIL@example.com";  // orders are emailed here
+const ORDER_EMAIL = "adarshyadav040109@example.com";  // orders are emailed here
 const WHATSAPP_NUMBER = "";                    // optional, e.g. "919999999999". Leave empty to hide the WhatsApp button.
 const CURRENCY = "₹";
 
