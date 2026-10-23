@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Idli Dosa.com | South Indian Cafe – Order Online</title>
+<meta name="description" content="Fresh idli, dosa, vada and filter coffee. Order online from Idli Dosa.com.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav"><div class="wrap nav-in">
+  <a class="logo" href="#top">Idli Dosa<span>.com</span></a>
+  <div class="links"><a href="#menu">Menu</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<header id="top" class="hero"><div class="wrap">
+  <h1>Hot idli. Crisp dosa. Strong filter coffee.</h1>
+  <p>Choose what you like, tell us where to deliver, and your order reaches our kitchen straight away.</p>
+  <a class="cta" href="#menu">Order now</a>
+</div></header>
+
+<main class="wrap layout" id="menu">
+  <section>
+    <h2 class="sec">Our menu</h2>
+    <div class="tabs" id="tabs" role="group" aria-label="Menu categories"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <aside aria-label="Your order">
+    <h2>Your order</h2>
+    <div id="cart"></div>
+    <div class="total"><span>Total</span><span id="total">₹0</span></div>
+    <label for="name">Your name</label>
+    <input id="name" autocomplete="name">
+    <label for="phone">Phone number</label>
+    <input id="phone" type="tel" autocomplete="tel">
+    <label for="addr">Delivery address (or write "Pickup")</label>
+    <textarea id="addr" rows="2"></textarea>
+    <label for="note">Note for the kitchen (optional)</label>
+    <input id="note" placeholder="Less spicy, extra chutney...">
+    <div class="msg" id="msg" role="status" aria-live="polite"></div>
+    <button class="order" id="send" disabled>Place order</button>
+    <button class="wa" id="wa" hidden>Or order on WhatsApp</button>
+  </aside>
+</main>
+
+<footer id="contact"><div class="wrap">
+  <h2>Idli Dosa.com</h2>
+  <!-- EDIT: put your real cafe details here -->
+  <p>Address: add your cafe address here</p>
+  <p>Open: add your opening hours here</p>
+  <p>Phone: add your phone number here</p>
+</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
